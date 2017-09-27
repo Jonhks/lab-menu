@@ -6,12 +6,6 @@
   left:10%;
   position: relative;
 }
-.ocultar{
-  display: none;
-}
-.mostrar{
-  display: block;
-}
 .titulo{
   color: #fcb425;
   text-align: center;
