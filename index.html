@@ -3,85 +3,89 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lab-Menu</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<!-- Sección de inicio -->
-
-	<section id="seccionInicial">
-		<h1 class="titulo"><b><</b> Lab-Menu <img src="assets/img/hamburguesa.png" alt="Logo" style="width: 60px; height: 40px;" ><b>></b></h1>
-		<article>
-			<p class="restaurantMision">Somos la cadena de restaurantes de entrega rápida más grande,
-				exitosa e innovadora de México y para alcanzar el estándar de servicio necesario para lograrlo,
-				mantenemos una estricta política de eficiencia y trato ético y honesto hacia
-				nuestros clientes, proveedores, colaboradores, asociados y a la comunidad en genera</p>
-		</article>
-
-	</section>
-	<!--  Sección de inicio-->
-
-	<!-- Seccion de pestañas-->
-		<ul class="contenedorTabs">
-			<li style="	list-style: none; display: inline-block;">
-				<button type="button" id="pestana1" class="tab">Desayuno</button>
-			</li>
-			<li style="	list-style: none; display: inline-block">
-				<button type="button" id="pestana2" class="tab">Comida</button>
-			</li>
-			<li style="	list-style: none; display: inline-block">
-				<button type="button" id="pestana3" class="tab">Cena</button>
-			</li>
-		</ul>
-		<section class="container">
-			<article id="desayuno" class="contenido">
-				<div style="display: inline-block;">
-					<img src="assets/img/desayuno.jpg" alt="Desayuno" style="width: 500px; height: 400px;">
-				</div>
-				<div style="display: inline-block; position: absolute; padding-left: 300px;">
-					<h2 style="font-size: 40px;">Para el desayuno</h2>
-					<ul>
-						<li>Hot Cakes</li>
-						<li>Jugo</li>
-						<li>Fruta</li>
-						<li>Cafe</li>
-					</ul>
-				</div>
-			</article>
-			<article id="comida" class="contenido">
-				<div style = "display: inline-block;">
-					<img src="assets/img/comida.jpg" alt="Comida" style="width: 500px; height: 400px;">
-				</div>
-
-				<div style="display: inline-block; position: absolute; padding-left: 300px;">
-					<h2 style="font-size: 40px;">Para la comida</h2>
-					<ul>
-						<li>Enchiladas Verdes</li>
-						<li>Frijoles</li>
-						<li>Arroz</li>
-						<li>Agua</li>
-						<li>Fruta</li>
-					</ul>
-				</div>
+	<div class="container-fluid">
+		<section id="seccionInicial">
+			<h1 class="titulo"><b><</b> Lab-Menu <img src="assets/img/hamburguesa.png" alt="Logo" style="width: 60px; height: 40px;" ><b>></b></h1>
+			<article>
+				<p class="restaurantMision">Somos la cadena de restaurantes de entrega rápida más grande,
+					exitosa e innovadora de México y para alcanzar el estándar de servicio necesario para lograrlo,
+					mantenemos una estricta política de eficiencia y trato ético y honesto hacia
+					nuestros clientes, proveedores, colaboradores, asociados y a la comunidad en genera</p>
 			</article>
 
-			<article id="cena" class="contenido">
-				<div>
-					<img src ="assets/img/cena.jpg" alt="Cena" style="width: 500px; height: 400px;">
-				</div>
-				<div>
-					<h2 style="font-size: 40px;">Para la cena</h2>
-					<ul>
-						<li>Pechuga Asada</li>
-						<li>Ensalada</li>
-						<ul>
-							<li>Lechuga</li>
-							<li>Jitomate</li>
-							<li>Rabano</li>
-						</ul>
-					</ul>
-				</div>
-			</article>
 		</section>
-	<!-- Termina sección-->
+		<!--  Sección de inicio-->
+
+		<!-- Seccion de pestañas-->
+			<ul class="contenedorTabs">
+				<li>
+					<button type="button" id="pestana1" class="tab">Desayuno</button>
+				</li>
+				<li>
+					<button type="button" id="pestana2" class="tab">Comida</button>
+				</li>
+				<li>
+					<button type="button" id="pestana3" class="tab">Cena</button>
+				</li>
+			</ul>
+			<section class="container">
+				<article id="desayuno" class="contenido">
+					<div class = "divImg">
+						<img src="assets/img/desayuno.jpg" alt="Desayuno">
+					</div>
+					<div class="divTexto">
+						<h2>Para el desayuno</h2>
+						<ul>
+							<li>Hot Cakes</li>
+							<li>Jugo</li>
+							<li>Fruta</li>
+							<li>Cafe</li>
+						</ul>
+					</div>
+				</article>
+				<article id="comida" class="contenido">
+					<div class="divImg">
+						<img src="assets/img/comida.jpg" alt="Comida">
+					</div>
+
+					<div class="divTexto">
+						<h2>Para la comida</h2>
+						<ul>
+							<li>Enchiladas Verdes</li>
+							<li>Frijoles</li>
+							<li>Arroz</li>
+							<li>Agua</li>
+							<li>Fruta</li>
+						</ul>
+					</div>
+				</article>
+
+				<article id="cena" class="contenido">
+					<div class="divImg">
+						<img src ="assets/img/cena.jpg" alt="Cena">
+					</div>
+
+					<div class="divTexto">
+						<h2>Para la cena</h2>
+						<ul>
+							<li>Pechuga Asada</li>
+							<li>Ensalada</li>
+							<ul>
+								<li>Lechuga</li>
+								<li>Jitomate</li>
+								<li>Rabano</li>
+							</ul>
+						</ul>
+					</div>
+
+				</article>
+			</section>		
+		<!-- Termina sección-->
+	</div>
     	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
