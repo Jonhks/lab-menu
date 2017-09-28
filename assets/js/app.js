@@ -25,23 +25,7 @@ var cargarPagina = function(){
     elementosClaseTab[i].addEventListener('click',mostrarOcultar);
   }
 }
-var estilosTabs=function(){
-  var contenedorTabs=document.getElementsByClassName('contenedorTabs')[0];
-  contenedorTabs.style.borderBottom='#fcb425 1px solid';
-  contenedorTabs.style.width='100%';
-  contenedorTabs.style.color='black';
-  var tabs = contenedorTabs.getElementsByClassName('tab');
-  for(var i = 0; i<tabs.length;i++){
-    tabs[i].style.color='black';
-    tabs[i].style.backgroundColor='#fcb425';
-    tabs[i].style.borderRadius='5%';
-    tabs[i].style.borderBottom='none'
-    tabs[i].style.padding='10px';
-    tabs[i].style.width='100px';
-  }
-}
 
 cargarPagina();
 
 estilosTabs();
-// estilosPresentacion();

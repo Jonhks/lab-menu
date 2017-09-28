@@ -32,22 +32,32 @@
 	list-style: none;
 	display: inline-block;
 }
-
 .divImg{
 	display: inline-block;
 }
-
 img{
 	width: 500px;
 	height: 400px;
 }
-
 .divTexto{
 	display: inline-block;
 	position: absolute;
 	padding-left: 300px;
 }
-
 h2{
 	font-size: 40px;
+}
+/*Estilo de los Tabs: */
+.contenedorTabs{
+  border-bottom: #fcb425 1px solid;
+  width: 100%;
+  color: black;
+}
+.tab{
+  color: black;
+  background-color: #fcb425;
+  border-radius: 5%;
+  border-bottom: none;
+  padding: 10px;
+  width: 100px;
 }
