@@ -3,6 +3,7 @@ var mostrarOcultar = function(e){
   if(e.target.id === 'pestana1'){
     document.getElementById('comida').style.display='none';
     document.getElementById('cena').style.display='none';
+    document.getElementById('desayuno').style.display='block';
   }
 };
 var hola = document.getElementsByClassName('tab');
