@@ -1,0 +1,30 @@
+.container-fluid{
+  width: 80%;
+  left:10%;
+  position: relative;
+}
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+.titulo{
+  color: #fcb425;
+  text-align: center;
+  font-size: 3em;
+}
+.logo{
+  width: 60px;
+  height: 40px;
+}
+.mision{
+  color: #1A1A1A;
+  font-size: 1em;
+  font-family: 'Arial',serif;
+}
+#seccionInicial article{
+  width: 80%;
+  position: relative;
+  left: 5em;
+}

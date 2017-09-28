@@ -14,7 +14,7 @@ var mostrarOcultar = function(e){
   	document.getElementById("comida").style.display = 'none';
   	document.getElementById("cena").style.display = 'block';
   }
-};
+}
 var cargarPagina = function(){
   document.getElementById("desayuno").style.display = 'none';
   document.getElementById("comida").style.display = 'none';
@@ -24,18 +24,6 @@ var cargarPagina = function(){
   for (var i = 0; i < elementosClaseTab.length; i++) {
     elementosClaseTab[i].addEventListener('click',mostrarOcultar);
   }
-}
-var estilosPresentacion = function(){
-  var seccionInicial=document.getElementById('seccionInicial');
-  var titulo = seccionInicial.firstChild.nextElementSibling;
-  var descripcionRestaurante=titulo.nextElementSibling;
-  titulo.style.color='#fcb425';
-  titulo.style.textAlign='center';
-  titulo.style.fontSize='3em';
-  descripcionRestaurante.style.fontSize='1em';
-
-
-
 }
 var estilosTabs=function(){
   var contenedorTabs=document.getElementsByClassName('contenedorTabs')[0];
@@ -56,5 +44,4 @@ var estilosTabs=function(){
 cargarPagina();
 
 estilosTabs();
-estilosPresentacion();
-
+// estilosPresentacion();
