@@ -8,4 +8,3 @@ var hola = document.getElementsByClassName("tab");
 for (var i = 0; i < hola.length; i++) {
   hola[i].addEventListener("click",mostrarOcultar);
 }
-c
