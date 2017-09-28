@@ -28,3 +28,26 @@
   position: relative;
   left: 5em;
 }
+.contenedorTabs li{
+	list-style: none;
+	display: inline-block;
+}
+
+.divImg{
+	display: inline-block;
+}
+
+img{
+	width: 500px;
+	height: 400px;
+}
+
+.divTexto{
+	display: inline-block;
+	position: absolute;
+	padding-left: 300px;
+}
+
+h2{
+	font-size: 40px;
+}
