@@ -1,0 +1,69 @@
+#desayuno, #comida, #cena{
+  display: none;
+}
+.container-fluid{
+  width: 80%;
+  left:10%;
+  position: relative;
+}
+.ocultar{
+  display: none;
+}
+.mostrar{
+  display: block;
+}
+.titulo{
+  color: #fcb425;
+  text-align: center;
+  font-size: 3em;
+}
+.logo{
+  width: 60px;
+  height: 40px;
+}
+.mision{
+  color: #1A1A1A;
+  font-size: 1em;
+  font-family: 'Arial',serif;
+}
+#seccionInicial article{
+  width: 80%;
+  position: relative;
+  left: 5em;
+}
+.contenedorTabs li{
+	list-style: none;
+	display: inline-block;
+}
+.divImg{
+	display: inline-block;
+}
+
+.fotoComida{
+	width: 500px;
+	height: 400px;
+}
+.divTexto{
+	display: inline-block;
+	position: absolute;
+	padding-left: 36px;
+}
+
+.menuComida{
+	font-size: 40px;
+  font-family: 'Times New Roman',serif;
+}
+/*Estilo de los Tabs: */
+.contenedorTabs{
+  border-bottom: #fcb425 1px solid;
+  width: 100%;
+  color: black;
+}
+.tab{
+  color: black;
+  background-color: #fcb425;
+  border-radius: 5%;
+  border-bottom: none;
+  padding: 10px;
+  width: 100px;
+}
