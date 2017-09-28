@@ -38,16 +38,18 @@
 .divImg{
 	display: inline-block;
 }
-img{
+
+.fotoComida{
 	width: 500px;
 	height: 400px;
 }
 .divTexto{
 	display: inline-block;
 	position: absolute;
-	padding-left: 300px;
+	padding-left: 36px;
 }
-h2{
+
+.menuComida{
 	font-size: 40px;
   font-family: 'Times New Roman',serif;
 }
