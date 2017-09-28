@@ -1,3 +1,6 @@
+#desayuno, #comida, #cena{
+  display: none;
+}
 .container-fluid{
   width: 80%;
   left:10%;
@@ -46,6 +49,7 @@ img{
 }
 h2{
 	font-size: 40px;
+  font-family: 'Times New Roman',serif;
 }
 /*Estilo de los Tabs: */
 .contenedorTabs{
