@@ -1,3 +1,6 @@
+#desayuno, #comida, #cena{
+  display: none;
+}
 .container-fluid{
   width: 80%;
   left:10%;
@@ -32,7 +35,6 @@
 	list-style: none;
 	display: inline-block;
 }
-
 .divImg{
 	display: inline-block;
 }
@@ -41,7 +43,6 @@
 	width: 500px;
 	height: 400px;
 }
-
 .divTexto{
 	display: inline-block;
 	position: absolute;
@@ -50,8 +51,19 @@
 
 .menuComida{
 	font-size: 40px;
+  font-family: 'Times New Roman',serif;
 }
-
+/*Estilo de los Tabs: */
+.contenedorTabs{
+  border-bottom: #fcb425 1px solid;
+  width: 100%;
+  color: black;
+}
 .tab{
-	color: orange;
+  color: black;
+  background-color: #fcb425;
+  border-radius: 5%;
+  border-bottom: none;
+  padding: 10px;
+  width: 100px;
 }
