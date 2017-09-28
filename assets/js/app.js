@@ -54,5 +54,7 @@ var estilosTabs=function(){
 }
 
 cargarPagina();
+
 estilosTabs();
 estilosPresentacion();
+
